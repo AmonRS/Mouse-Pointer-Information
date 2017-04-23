@@ -1,5 +1,7 @@
-position of mouse
+Basic gui widget that shows:
 
-color of pixel at position
+> position of mouse
 
-time
+> color of pixel at position
+
+> date and time
