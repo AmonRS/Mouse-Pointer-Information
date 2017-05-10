@@ -4,6 +4,10 @@ import pyautogui
 from tkinter import *
 import time
 
+from ctypes import windll         #fix resolution for windows 10
+user32 = windll.user32
+user32.SetProcessDPIAware()
+
 tk = Tk()   #<var> = Tk()    #create the window to do stuff in
 tk.title('sfsdfgh')
 
